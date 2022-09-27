@@ -17,14 +17,6 @@ pipeline {
       }
     }
      
-    //Using Terrafrom can create the Servers
-    
-    stage('CreateServers'){
-      steps{
-       sh "terraform  -chdir=terraformscripts init"
-       sh "terraform  -chdir=terraformscripts apply --auto-approve"
-      }
-    }
     
     //Run the playbook
     stage('RunPlaybook') {
