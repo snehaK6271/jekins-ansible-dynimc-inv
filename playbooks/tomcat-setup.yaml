@@ -1,7 +1,7 @@
 ---
  - hosts: all
-  become: true
-  tasks:
+   become: true
+   tasks:
     -  name: Sleep for 60 seconds and timeout
        tags: sleep60
        wait_for:
