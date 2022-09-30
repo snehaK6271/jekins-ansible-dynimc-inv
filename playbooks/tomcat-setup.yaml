@@ -1,7 +1,7 @@
 - name: sleep for 120 seconds and continue with play
   ansible.builtin.wait_for_connection:
   delay: 60
-   timeout: 300
+  timeout: 300
 - hosts: all
   become: true
   tasks:
