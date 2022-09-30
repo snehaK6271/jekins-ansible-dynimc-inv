@@ -1,6 +1,5 @@
- - name: Sleep Playbook
-   hosts: app
-- hosts: all
+---
+ - hosts: all
   become: true
   tasks:
     -  name: Sleep for 60 seconds and timeout
