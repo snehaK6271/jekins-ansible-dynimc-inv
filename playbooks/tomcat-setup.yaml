@@ -1,10 +1,10 @@
+- name: sleep for 120 seconds and continue with play
+  ansible.builtin.wait_for_connection:
+  delay: 60
+   timeout: 300
 - hosts: all
   become: true
   tasks:
-    - name: sleep for 120 seconds and continue with play
-      ansible.builtin.wait_for_connection:
-       delay: 60
-       timeout: 300
     - name: Install Java
       yum:
         name: java-1.8.0-openjdk
