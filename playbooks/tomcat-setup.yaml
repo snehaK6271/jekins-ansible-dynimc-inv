@@ -1,3 +1,4 @@
+--- 
 - name: wait 300 seconds but only start checking after 60 seconds
   ansible.builtin.wait_for_connection: 
 - name: wait 300 seconds but only start checking after 60 seconds
