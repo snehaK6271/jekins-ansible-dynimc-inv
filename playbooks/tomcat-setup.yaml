@@ -5,8 +5,8 @@
     -  name: Sleep for 60 seconds and timeout
        tags: sleep60
        wait_for:
-       delay: 60
-       timeout: 0
+        delay: 60
+        timeout: 0
     - name: Install Java
       yum:
         name: java-1.8.0-openjdk
