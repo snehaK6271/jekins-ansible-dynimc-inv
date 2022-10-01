@@ -1,1 +1,1 @@
-# jekins-ansible-dynimc-inv
+# jekins-ansible-dynamic-inv
